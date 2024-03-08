@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Almosafer" class="navigator-link">
+              <span class="suite-name border-failed">Almosafer</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Almosafer" class="navigator-link ">
+                    <span>C:\Users\msi-Pc\eclipse-workspace\Almosafer_project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Almosafer" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Almosafer" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Almosafer" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Almosafer" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Almosafer" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Almosafer" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Almosafer" class="hide-methods failed suite-Almosafer"> (hide)</a> <!-- hide-methods failed suite-Almosafer -->
+                      <a href="#" panel-name="suite-Almosafer" class="show-methods failed suite-Almosafer"> (show)</a> <!-- show-methods failed suite-Almosafer -->
+                    </span>
+                    <div class="method-list-content failed suite-Almosafer">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="chack_Date">chack_Date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Almosafer -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Almosafer" class="hide-methods passed suite-Almosafer"> (hide)</a> <!-- hide-methods passed suite-Almosafer -->
+                      <a href="#" panel-name="suite-Almosafer" class="show-methods passed suite-Almosafer"> (show)</a> <!-- show-methods passed suite-Almosafer -->
+                    </span>
+                    <div class="method-list-content passed suite-Almosafer">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="CheckContactNumber">CheckContactNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="Check_hotel">Check_hotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="checkTheVisa">checkTheVisa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="checkTheWebsiteLanguage">checkTheWebsiteLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="checkTheWebsiteLanguage">checkTheWebsiteLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="checkTheWebsiteLanguage">checkTheWebsiteLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="defaultCurrency">defaultCurrency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="hotleTabIsNotSelected">hotleTabIsNotSelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="locationField">locationField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="locationField">locationField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="locationField">locationField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="locationField">locationField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="locationField">locationField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="locationField">locationField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="numberOfImg">numberOfImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="qtife">qtife</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Almosafer" title="Almosafer.TestCases" class="method navigator-link" hash-for-method="randomlySelecOfVisitor">randomlySelecOfVisitor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Almosafer -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Almosafer" class="panel Almosafer">
+          <div class="suite-Almosafer-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Almosafer.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chack_Date">
+                  </a> <!-- chack_Date -->
+                  <span class="method-name">chack_Date</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Kingdom of Saudi Arabia, SAR&apos;]&quot;}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76745dd3cbbade7a173d4a220ebfa12f, findElement {using=xpath, value=//button[normalize-space()=&apos;Kingdom of Saudi Arabia, SAR&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\msi-Pc\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53120}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53120/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76745dd3cbbade7a173d4a220ebfa12f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at Almosafer.TestCases.chack_Date(TestCases.java:190)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Almosafer-class-failed -->
+          <div class="suite-Almosafer-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Almosafer.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckContactNumber">
+                  </a> <!-- CheckContactNumber -->
+                  <span class="method-name">CheckContactNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_hotel">
+                  </a> <!-- Check_hotel -->
+                  <span class="method-name">Check_hotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheVisa">
+                  </a> <!-- checkTheVisa -->
+                  <span class="method-name">checkTheVisa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheWebsiteLanguage">
+                  </a> <!-- checkTheWebsiteLanguage -->
+                  <span class="method-name">checkTheWebsiteLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheWebsiteLanguage">
+                  </a> <!-- checkTheWebsiteLanguage -->
+                  <span class="method-name">checkTheWebsiteLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheWebsiteLanguage">
+                  </a> <!-- checkTheWebsiteLanguage -->
+                  <span class="method-name">checkTheWebsiteLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="defaultCurrency">
+                  </a> <!-- defaultCurrency -->
+                  <span class="method-name">defaultCurrency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hotleTabIsNotSelected">
+                  </a> <!-- hotleTabIsNotSelected -->
+                  <span class="method-name">hotleTabIsNotSelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="locationField">
+                  </a> <!-- locationField -->
+                  <span class="method-name">locationField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="locationField">
+                  </a> <!-- locationField -->
+                  <span class="method-name">locationField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="locationField">
+                  </a> <!-- locationField -->
+                  <span class="method-name">locationField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="locationField">
+                  </a> <!-- locationField -->
+                  <span class="method-name">locationField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="locationField">
+                  </a> <!-- locationField -->
+                  <span class="method-name">locationField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="locationField">
+                  </a> <!-- locationField -->
+                  <span class="method-name">locationField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfImg">
+                  </a> <!-- numberOfImg -->
+                  <span class="method-name">numberOfImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qtife">
+                  </a> <!-- qtife -->
+                  <span class="method-name">qtife</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomlySelecOfVisitor">
+                  </a> <!-- randomlySelecOfVisitor -->
+                  <span class="method-name">randomlySelecOfVisitor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Almosafer-class-passed -->
+        </div> <!-- panel Almosafer -->
+        <div panel-name="test-xml-Almosafer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\msi-Pc\eclipse-workspace\Almosafer_project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Almosafer&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Almosafer.TestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Almosafer --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Almosafer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Almosafer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Almosafer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Almosafer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Almosafer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Almosafer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Almosafer');
+function tableData_Almosafer() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Check_hotel')
+data.setCell(0, 2, 'Almosafer.TestCases')
+data.setCell(0, 3, 23753);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'hotleTabIsNotSelected')
+data.setCell(1, 2, 'Almosafer.TestCases')
+data.setCell(1, 3, 6675);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckContactNumber')
+data.setCell(2, 2, 'Almosafer.TestCases')
+data.setCell(2, 3, 6351);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkTheVisa')
+data.setCell(3, 2, 'Almosafer.TestCases')
+data.setCell(3, 3, 6053);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'chack_Date')
+data.setCell(4, 2, 'Almosafer.TestCases')
+data.setCell(4, 3, 3882);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'randomlySelecOfVisitor')
+data.setCell(5, 2, 'Almosafer.TestCases')
+data.setCell(5, 3, 3465);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'defaultCurrency')
+data.setCell(6, 2, 'Almosafer.TestCases')
+data.setCell(6, 3, 3042);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'locationField')
+data.setCell(7, 2, 'Almosafer.TestCases')
+data.setCell(7, 3, 2735);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'locationField')
+data.setCell(8, 2, 'Almosafer.TestCases')
+data.setCell(8, 3, 2606);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'locationField')
+data.setCell(9, 2, 'Almosafer.TestCases')
+data.setCell(9, 3, 2527);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'locationField')
+data.setCell(10, 2, 'Almosafer.TestCases')
+data.setCell(10, 3, 2514);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'locationField')
+data.setCell(11, 2, 'Almosafer.TestCases')
+data.setCell(11, 3, 2468);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'locationField')
+data.setCell(12, 2, 'Almosafer.TestCases')
+data.setCell(12, 3, 2419);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkTheWebsiteLanguage')
+data.setCell(13, 2, 'Almosafer.TestCases')
+data.setCell(13, 3, 1491);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'numberOfImg')
+data.setCell(14, 2, 'Almosafer.TestCases')
+data.setCell(14, 3, 1369);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkTheWebsiteLanguage')
+data.setCell(15, 2, 'Almosafer.TestCases')
+data.setCell(15, 3, 738);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkTheWebsiteLanguage')
+data.setCell(16, 2, 'Almosafer.TestCases')
+data.setCell(16, 3, 559);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'qtife')
+data.setCell(17, 2, 'Almosafer.TestCases')
+data.setCell(17, 3, 58);
+window.suiteTableData['Almosafer']= { tableData: data, tableDiv: 'times-div-Almosafer'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Almosafer">
+              </div> <!-- times-div-Almosafer -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Almosafer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Almosafer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Almosafer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Almosafer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Almosafer.TestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkTheWebsiteLanguage</span>
+                <span class="method-start">13127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTheWebsiteLanguage</span>
+                <span class="method-start">13868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTheWebsiteLanguage</span>
+                <span class="method-start">14428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Check_hotel</span>
+                <span class="method-start">15924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckContactNumber</span>
+                <span class="method-start">39679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">defaultCurrency</span>
+                <span class="method-start">46032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberOfImg</span>
+                <span class="method-start">49075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">locationField</span>
+                <span class="method-start">50446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">locationField</span>
+                <span class="method-start">53183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">locationField</span>
+                <span class="method-start">55700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">locationField</span>
+                <span class="method-start">58169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">locationField</span>
+                <span class="method-start">60589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">locationField</span>
+                <span class="method-start">63116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hotleTabIsNotSelected</span>
+                <span class="method-start">65723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qtife</span>
+                <span class="method-start">72399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTheVisa</span>
+                <span class="method-start">72459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">randomlySelecOfVisitor</span>
+                <span class="method-start">78513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">chack_Date</span>
+                <span class="method-start">81979 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
